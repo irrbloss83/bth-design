@@ -36,6 +36,16 @@ body {
     overflow: auto;
 }
 
+.has-sidebar-right {
+    width: 70%;
+    float: left;
+}
+
+.has-sidebar-left {
+    width: 70%;
+    float: left;
+}
+
 .figure.right {
     float: right;
 }
@@ -120,8 +130,15 @@ ul.my-navbar {
  * Redovisningssida
  */
 
-.block.toc {
+.region-sidebar-left {
     float: left;
+    margin: 10px 15px;
+    overflow: auto;
+    width: 25%;
+}
+
+.region-sidebar-right {
+    float: right;
     margin: 10px 15px;
     overflow: auto;
     width: 25%;
@@ -130,8 +147,7 @@ ul.my-navbar {
 .next-previous {
     display: inline-block;
     padding: 8px 16px;
-    width: 70%;
-    float: right;
+    width: 100%;
 }
 
 .next {
