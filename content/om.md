@@ -19,10 +19,6 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Kursen **Teknisk webbdesign och användbarhet**, a.k.a. *design*, lär webbprogrammeraren att tekniskt förbereda sin webbplats för design och användbarhet.
 
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/htmlcss.jpg?w=300 caption="CSS3 / HTML5"]

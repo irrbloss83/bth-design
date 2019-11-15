@@ -14,3 +14,92 @@
 .rm-navbar-max {
     display: none;
 }
+
+/* Main */
+
+html {
+    background-color: rgb(54, 193, 156);
+}
+
+body {
+    background-color: white;
+    max-width: 900px;
+    margin: 5px auto;
+}
+
+article {
+    padding: 8px 16px;
+    overflow: auto;
+}
+
+.figure.right {
+    float: right;
+}
+
+.figure.left {
+    float: left;
+    margin: 16px 8px;
+}
+
+.site-logo {
+    display: none;
+}
+
+.author-byline {
+    float: clear;
+    overflow: auto;
+    border: 1px solid black;
+    width: 80%;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+/* Header, Navbar */
+
+.site-logo-text {
+    float: left;
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;     
+    text-align: center;
+    font-size: 40px;
+}
+
+.my-navbar {
+    overflow: hidden;
+}
+
+ul.my-navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.my-navbar li {
+    float: left;
+}
+
+.my-navbar li a {
+    color: black;
+    padding: 14px 16px;
+    width: 80px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.my-navbar li a:hover {
+    text-decoration: underline;
+}
+
+.region-flash img {
+    max-width: 100%;
+}
+
+/* Footer */
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
