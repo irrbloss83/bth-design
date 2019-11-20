@@ -1,0 +1,221 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Main */
+.article {
+  padding: 8px 16px;
+  overflow: auto;
+}
+.has-sidebar-right {
+  width: 70%;
+  float: left;
+}
+.has-sidebar-left {
+  width: 70%;
+  float: left;
+}
+.figure.right {
+  float: right;
+}
+.figure.left {
+  float: left;
+  margin: 16px 8px;
+}
+.site-logo {
+  display: none;
+}
+.author-byline {
+  float: clear;
+  overflow: auto;
+  border: 1px solid black;
+  width: 80%;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+/* Header, Navbar */
+.site-logo-text {
+  float: left;
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 40px;
+}
+.my-navbar {
+  overflow: hidden;
+}
+ul.my-navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.my-navbar li {
+  float: left;
+}
+.my-navbar li a {
+  color: black;
+  padding: 14px 16px;
+  width: 110px;
+  border: 1px solid black;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.my-navbar li a:hover {
+  text-decoration: underline;
+}
+.region-flash img {
+  max-width: 100%;
+}
+/* Footer */
+.outer-wrap-footer {
+  float: clear;
+  width: 100%;
+  overflow: auto;
+  display: block;
+}
+.footer-column {
+  width: 33.3%;
+  float: left;
+  padding: 8px 16px;
+}
+/*
+ * Redovisningssida
+ */
+.region-sidebar-left {
+  float: left;
+  margin: 10px 15px;
+  overflow: auto;
+  width: 25%;
+}
+.region-sidebar-right {
+  float: right;
+  margin: 10px 15px;
+  overflow: auto;
+  width: 25%;
+}
+.next-previous {
+  display: inline-block;
+  padding: 8px 16px;
+  width: 100%;
+}
+.next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.previous {
+  float: left;
+  width: 50%;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  background-color: #36c19c;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #36c19c;
+  font: 100.01%/1 serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 900px;
+  margin: 5px auto;
+  background-color: white;
+}
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
