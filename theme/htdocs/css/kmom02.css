@@ -5069,18 +5069,24 @@ img {
 /**
  *  Sidebar
  */
-.has-sidebar {
-  width: 75%;
-  float: left;
-}
-.wrap-sidebar {
+.region-sidebar-left,
+.region-sidebar-right {
   float: left;
   padding: 10px 15px;
   overflow: auto;
   width: 25%;
 }
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+.region-main {
+  width: 75%;
+  float: left;
+  overflow: auto;
+}
 .region-main.has-sidebar-left.has-sidebar-right {
-  width: 50%;
+  width: 60%;
 }
 /**
  * Redovisningssida
