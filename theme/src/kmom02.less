@@ -22,11 +22,17 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
-@import "module/kmom01.less";
+//@import "module/kmom01.less";
 @import "module/stylechooser.less";  // Just an example module
 
 
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ //@import "@desinax/responsive-menu/less/media-queries.less";
 
+ 
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -39,16 +45,11 @@
  * and other regions of the page including route specific styles.
  */
 @import "layout/layout.less";
-//@import "layout/layout-kmom02.less";
 @import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 
 
-/**
- * A responsive menu.
- */
- @import "@desinax/responsive-menu/less/responsive-menu.less";
- @import "@desinax/responsive-menu/less/media-queries.less";
+
  
  
 /**

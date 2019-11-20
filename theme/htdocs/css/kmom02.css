@@ -4727,33 +4727,6 @@ template {
 /**
  * Internal self contained modules, save in directory module/.
  */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Main */
-.region-main.has-sidebar-left.has-sidebar-right {
-  width: 50%;
-}
-/*
- * Redovisningssida
- */
-.next-previous {
-  display: inline-block;
-  padding: 8px 16px;
-  width: 100%;
-}
-.next {
-  float: right;
-  width: 50%;
-  text-align: right;
-}
-.previous {
-  float: left;
-  width: 50%;
-}
 /**
  * Style for the stylechooser.
  */
@@ -4763,184 +4736,6 @@ template {
 /**
  * Style
  */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-* {
-  box-sizing: border-box;
-}
-html {
-  overflow-y: scroll;
-  background-color: #36c19c;
-}
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #36c19c;
-  font: 100.01%/1 serif;
-}
-img {
-  max-width: 100%;
-}
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-.inner-wrap {
-  margin: 0 auto;
-  max-width: 1100px;
-  background-color: white;
-  overflow: auto;
-}
-.site-logo {
-  display: none;
-}
-.article {
-  padding: 8px 16px;
-}
-/**
- *  Header
- */
-.outer-wrap-header {
-  overflow: auto;
-}
-.inner-wrap-header {
-  max-width: 1100px;
-  overflow-y: hidden;
-}
-.region-header-col-1,
-.region-header-col-3 {
-  width: 20%;
-  float: left;
-}
-.region-header-col-2 {
-  width: 60%;
-  float: left;
-  text-align: center;
-}
-/**
- *  Footer
- */
-.outer-wrap-footer {
-  clear: both;
-  width: 100%;
-  overflow: auto;
-  display: block;
-}
-.footer-column {
-  width: 33.3%;
-  float: left;
-  padding: 8px 16px;
-}
-/**
- *  Author byline
- */
-.author-byline {
-  overflow: auto;
-  border: 1px solid black;
-  width: 80%;
-  padding: 0 8px;
-  margin: 8px auto;
-  clear: both;
-}
-/**
- *  Figures
- */
-.figure {
-  margin: 16px 8px;
-}
-.figure.right {
-  float: right;
-}
-.figure.left {
-  float: left;
-}
-/**
- *  Sidebar
- */
-.has-sidebar {
-  width: 75%;
-  float: left;
-}
-.wrap-sidebar {
-  float: left;
-  padding: 10px 15px;
-  overflow: auto;
-  width: 25%;
-}
-.region-main.has-sidebar-left.has-sidebar-right {
-  width: 50%;
-}
-/**
- * Redovisningssida
- */
-.next-previous {
-  display: inline-block;
-  padding: 8px 16px;
-  width: 100%;
-}
-.next {
-  float: right;
-  width: 50%;
-  text-align: right;
-}
-.previous {
-  float: left;
-  width: 50%;
-}
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
-/**
- * Show off the regions used in the website, to ease styling.
- */
-.regions .outer-wrap {
-  background-color: #f4e3c9;
-  border: 1px solid #e3b774;
-}
-.regions .inner-wrap {
-  background-color: #f4e0e9;
-  border: 1px solid #d995b4;
-}
-.regions .region-header-col-1,
-.regions .region-header-col-2,
-.regions .region-header-col-3,
-.regions .region-flash,
-.regions .region-breadcrumb,
-.regions .region-flash-message,
-.regions .region-columns-above,
-.regions .region-main,
-.regions .region-after-main,
-.regions .region-columns-below,
-.regions .region-sidebar-left,
-.regions .region-sidebar-right,
-.regions .region-footer,
-.regions .region-footer-column-1,
-.regions .region-footer-column-2,
-.regions .region-footer-column-3 {
-  background-color: #b5dce1;
-  border: 1px solid #6cbac4;
-  color: #111;
-}
 /**
  * A responsive menu.
  */
@@ -5170,23 +4965,192 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Style for responsive menu
+ * Base style to affect HTML elements on a general scale.
  */
 /**
-  * Example on media queries
-  */
-@media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
+ * Base style to affect HTML elements on a general scale.
+ */
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  background-color: #36c19c;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #36c19c;
+  font: 100.01%/1 serif;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+  background-color: white;
+  overflow: auto;
+}
+.site-logo {
+  display: none;
+}
+.article {
+  padding: 8px 16px;
+}
+/**
+ *  Header
+ */
+.outer-wrap-header {
+  overflow: auto;
+}
+.inner-wrap-header {
+  overflow-y: hidden;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 15%;
+  float: left;
+}
+.region-header-col-2 {
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+/**
+ *  Footer
+ */
+.inner-wrap-footer {
+  background-color: lightgrey;
+}
+.footer-column {
+  width: 33.3%;
+  float: left;
+  padding: 8px 16px;
+}
+/**
+ *  Author byline
+ */
+.author-byline {
+  overflow: auto;
+  border: 1px solid black;
+  width: 80%;
+  padding: 0 8px;
+  margin: 8px auto;
+  clear: both;
+}
+/**
+ *  Figures
+ */
+.figure {
+  margin: 16px 8px;
+}
+.figure.right {
+  float: right;
+}
+.figure.left {
+  float: left;
+}
+/**
+ *  Sidebar
+ */
+.has-sidebar {
+  width: 75%;
+  float: left;
+}
+.wrap-sidebar {
+  float: left;
+  padding: 10px 15px;
+  overflow: auto;
+  width: 25%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 50%;
+}
+/**
+ * Redovisningssida
+ */
+.next-previous {
+  display: inline-block;
+  padding: 8px 16px;
+  width: 100%;
+}
+.next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.previous {
+  float: left;
+  width: 50%;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
   }
+}
+/**
+ *  Navbar
+ */
+@media screen and (max-width: 830px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 690px) {
   .rm-desktop {
     display: none;
   }
 }
-@media screen and (min-width: 680px) {
-  .rm-small {
-    display: none;
-  }
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
 }
 /**
  * My own settings, not currently in their own module.
