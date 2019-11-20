@@ -4734,98 +4734,12 @@ template {
  * to style up the website so it is useable.
  */
 /* Main */
-.article {
-  padding: 8px 16px;
-  overflow: auto;
-}
-.has-sidebar-right {
-  width: 70%;
-  float: left;
-}
-.has-sidebar-left {
-  width: 70%;
-  float: left;
-}
-.figure.right {
-  float: right;
-}
-.figure.left {
-  float: left;
-  margin: 16px 8px;
-}
-.site-logo {
-  display: none;
-}
-.author-byline {
-  float: clear;
-  overflow: auto;
-  border: 1px solid black;
-  width: 80%;
-  padding: 0 8px;
-  margin: 0 auto;
-}
-/* Header, Navbar */
-.site-logo-text {
-  float: left;
-  display: inline-block;
-  color: white;
-  padding: 14px 16px;
-  text-align: center;
-  font-size: 40px;
-}
-.my-navbar {
-  overflow: hidden;
-}
-ul.my-navbar {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.my-navbar li {
-  float: left;
-}
-.my-navbar li a {
-  color: black;
-  padding: 14px 16px;
-  width: 110px;
-  border: 1px solid black;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
-.my-navbar li a:hover {
-  text-decoration: underline;
-}
-.region-flash img {
-  max-width: 100%;
-}
-/* Footer */
-.outer-wrap-footer {
-  float: clear;
-  width: 100%;
-  overflow: auto;
-  display: block;
-}
-.footer-column {
-  width: 33.3%;
-  float: left;
-  padding: 8px 16px;
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 50%;
 }
 /*
  * Redovisningssida
  */
-.region-sidebar-left {
-  float: left;
-  margin: 10px 15px;
-  overflow: auto;
-  width: 25%;
-}
-.region-sidebar-right {
-  float: right;
-  margin: 10px 15px;
-  overflow: auto;
-  width: 25%;
-}
 .next-previous {
   display: inline-block;
   padding: 8px 16px;
@@ -4869,6 +4783,9 @@ body {
   background-color: #36c19c;
   font: 100.01%/1 serif;
 }
+img {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4884,9 +4801,106 @@ body {
  * General layout
  */
 .inner-wrap {
-  max-width: 900px;
-  margin: 5px auto;
+  margin: 0 auto;
+  max-width: 1100px;
   background-color: white;
+  overflow: auto;
+}
+.site-logo {
+  display: none;
+}
+.article {
+  padding: 8px 16px;
+}
+/**
+ *  Header
+ */
+.outer-wrap-header {
+  overflow: auto;
+}
+.inner-wrap-header {
+  max-width: 1100px;
+  overflow-y: hidden;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 20%;
+  float: left;
+}
+.region-header-col-2 {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+/**
+ *  Footer
+ */
+.outer-wrap-footer {
+  clear: both;
+  width: 100%;
+  overflow: auto;
+  display: block;
+}
+.footer-column {
+  width: 33.3%;
+  float: left;
+  padding: 8px 16px;
+}
+/**
+ *  Author byline
+ */
+.author-byline {
+  overflow: auto;
+  border: 1px solid black;
+  width: 80%;
+  padding: 0 8px;
+  margin: 8px auto;
+  clear: both;
+}
+/**
+ *  Figures
+ */
+.figure {
+  margin: 16px 8px;
+}
+.figure.right {
+  float: right;
+}
+.figure.left {
+  float: left;
+}
+/**
+ *  Sidebar
+ */
+.has-sidebar {
+  width: 75%;
+  float: left;
+}
+.wrap-sidebar {
+  float: left;
+  padding: 10px 15px;
+  overflow: auto;
+  width: 25%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 50%;
+}
+/**
+ * Redovisningssida
+ */
+.next-previous {
+  display: inline-block;
+  padding: 8px 16px;
+  width: 100%;
+}
+.next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.previous {
+  float: left;
+  width: 50%;
 }
 /**
  * Layout for responsive style through media queries.
