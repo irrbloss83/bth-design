@@ -5084,6 +5084,13 @@ img {
   line-height: 0px;
 }
 /**
+ *  Flash message
+ */
+.outer-wrap-flash-message {
+  margin: 16px auto;
+  padding: 8px 16px;
+}
+/**
  *  Sidebar
  */
 .region-sidebar-left,
