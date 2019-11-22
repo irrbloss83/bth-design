@@ -4975,13 +4975,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #36c19c;
+  background-color: #569eb9;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #36c19c;
+  background-color: #569eb9;
   font: 100%/1 Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 img {
@@ -5005,10 +5005,10 @@ img {
   background-color: white;
   margin: 0 auto;
   max-width: 1100px;
+  overflow: auto;
 }
 .inner-wrap {
   background-color: white;
-  overflow: auto;
 }
 .site-logo {
   display: none;
@@ -5043,11 +5043,9 @@ img {
  *  Header
  */
 .outer-wrap-header {
-  overflow: auto;
+  height: 48px;
   max-width: 100%;
-}
-.inner-wrap-header {
-  overflow-y: hidden;
+  overflow: unset;
 }
 .region-header-col-1,
 .region-header-col-3 {
