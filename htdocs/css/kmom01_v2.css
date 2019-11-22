@@ -41,7 +41,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #36c19c;
-  font: 100.01%/1 serif;
+  font: 100%/1 Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 img {
   max-width: 100%;
@@ -60,9 +60,12 @@ img {
 /**
  * General layout
  */
-.inner-wrap {
+.outer-wrap {
+  background-color: white;
   margin: 0 auto;
   max-width: 1100px;
+}
+.inner-wrap {
   background-color: white;
   overflow: auto;
 }

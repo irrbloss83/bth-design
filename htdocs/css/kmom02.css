@@ -4982,7 +4982,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #36c19c;
-  font: 100.01%/1 serif;
+  font: 100%/1 Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 img {
   max-width: 100%;
@@ -5001,9 +5001,12 @@ img {
 /**
  * General layout
  */
-.inner-wrap {
+.outer-wrap {
+  background-color: white;
   margin: 0 auto;
   max-width: 1100px;
+}
+.inner-wrap {
   background-color: white;
   overflow: auto;
 }
@@ -5041,6 +5044,7 @@ img {
  */
 .outer-wrap-header {
   overflow: auto;
+  max-width: 100%;
 }
 .inner-wrap-header {
   overflow-y: hidden;
@@ -5058,6 +5062,11 @@ img {
 /**
  *  Footer
  */
+.outer-wrap-footer {
+  max-width: 100%;
+  overflow: auto;
+  margin-top: 16px;
+}
 .inner-wrap-footer {
   background-color: lightgrey;
 }
@@ -5065,6 +5074,14 @@ img {
   width: 33.3%;
   float: left;
   padding: 8px 16px;
+}
+/**
+ *  Flash
+ */
+.outer-wrap-flash {
+  margin: 16px auto;
+  overflow: auto;
+  line-height: 0px;
 }
 /**
  *  Sidebar
