@@ -5013,6 +5013,29 @@ img {
 .article {
   padding: 8px 16px;
 }
+.figure {
+  margin: 16px 8px;
+}
+.figure.right {
+  float: right;
+}
+.figure.left {
+  float: left;
+}
+.next-previous {
+  display: inline-block;
+  padding: 8px 16px;
+  width: 100%;
+}
+.next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.previous {
+  float: left;
+  width: 50%;
+}
 /**
  *  Header
  */
@@ -5044,29 +5067,6 @@ img {
   padding: 8px 16px;
 }
 /**
- *  Author byline
- */
-.author-byline {
-  overflow: auto;
-  border: 1px solid black;
-  width: 80%;
-  padding: 0 8px;
-  margin: 8px auto;
-  clear: both;
-}
-/**
- *  Figures
- */
-.figure {
-  margin: 16px 8px;
-}
-.figure.right {
-  float: right;
-}
-.figure.left {
-  float: left;
-}
-/**
  *  Sidebar
  */
 .region-sidebar-left,
@@ -5080,7 +5080,7 @@ img {
 .region-sidebar-right.has-sidebar-left {
   width: 20%;
 }
-.region-main {
+.region-main.has-sidebar {
   width: 75%;
   float: left;
   overflow: auto;
@@ -5089,21 +5089,15 @@ img {
   width: 60%;
 }
 /**
- * Redovisningssida
+ *  Author byline
  */
-.next-previous {
-  display: inline-block;
-  padding: 8px 16px;
-  width: 100%;
-}
-.next {
-  float: right;
-  width: 50%;
-  text-align: right;
-}
-.previous {
-  float: left;
-  width: 50%;
+.author-byline {
+  overflow: auto;
+  border: 1px solid black;
+  width: 80%;
+  padding: 0 8px;
+  margin: 8px auto;
+  clear: both;
 }
 /**
  * Layout for responsive style through media queries.
