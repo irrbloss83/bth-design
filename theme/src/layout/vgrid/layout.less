@@ -13,6 +13,11 @@
  * General layout
  */
 
+// Activate the grid base font
+body {
+   #desinax-hgrid.font(@fontSizeBody);
+}
+
 .row {
     #desinax-vgrid.row();
     //background-color: #0f0;
@@ -64,5 +69,9 @@
  * Regions
  */
 .region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-flash {
     #desinax-vgrid.column(@columns);
 }
