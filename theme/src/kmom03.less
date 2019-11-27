@@ -37,19 +37,29 @@
  */
 @import "base/base.less";
 
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+// Default grid, change to fit
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
 
 
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-@import "layout/layout.less";
-@import "layout/header.less";
-@import "layout/footer.less";
-@import "layout/flash.less";
-@import "layout/flash-message.less";
-@import "layout/sidebars.less";
-@import "layout/author_byline.less";
+@import "layout/vgrid/layout.less";
+@import "layout/vgrid/header.less";
+@import "layout/vgrid/footer.less";
+@import "layout/vgrid/flash.less";
+//@import "layout/flash-message.less";
+@import "layout/vgrid/sidebars.less";
+//@import "layout/author_byline.less";
 @import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 

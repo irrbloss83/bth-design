@@ -1,0 +1,27 @@
+/**
+ *  Header
+ */
+
+.outer-wrap-header {
+    //height: 48px;
+    //max-width: 100%;
+    //overflow: unset;
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.region-header {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns / 6);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(@columns * 2 / 3);
+    text-align: center;
+}

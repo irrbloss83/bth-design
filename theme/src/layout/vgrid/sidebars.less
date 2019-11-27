@@ -1,0 +1,31 @@
+/**
+ *  Sidebars
+ */
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+
+}
+ 
+.region-main {
+    #desinax-vgrid.column(24);
+
+    &.has-sidebar {
+        #desinax-vgrid.column(18);
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(12);
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(6);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+
+}
