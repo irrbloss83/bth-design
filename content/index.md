@@ -8,13 +8,12 @@ views:
         data:
             meta:
                 type: single
-                route: block/byline 
+                route: block/byline
 ---
-[FIGURE src="image/pall1.jpg?w=300" class="right" caption="SM-guld!"]
 
 Min me-sida i kursen design
 ===========================
-
+[FIGURE src="image/pall1.jpg?w=300" class="right" caption="SM-guld!"]
 Jag heter Johan Eng, och är uppväxt i byn Ysane utanför Sölveborg. Intresse för datorer har funnits sen jag var liten då vi skaffade får först PC (en 286a). Sedan dess har datorer alltid varit en del av mitt liv. Ibland stor, ibland liten. Efter att ha bott och studerat i Lund och Kristianstad, till att ha aretet som Linux-tekniker i Bromölla har jag återigen landat i Ysane där jag bor med min sambo Anne och vår snart 3 år gamla dotter Celina.
 
 Efter en naturvetenskaplig gymnasieutbildning övervägde jag att läsa någon form av datorinriktad utbildning, men då detta var mitt dåvarande fritidsintresse hamnade jag istället på LTH där jag läste Teknisk Fysik några år. Jag gillade matematiken men den teoretiska fysiken passade inte helt och hållet. Istället jag gick vidare till att läsa en lärarutbildning. 

@@ -15,8 +15,7 @@
 
 .row {
     #desinax-vgrid.row();
-    //background-color: #0f0;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .inner-wrap {
@@ -36,8 +35,13 @@
 }
 
 .next-previous {
-    display: inline-block;
-    width: 100%;
+    & a, a:visited {
+        color: #000;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .next {
@@ -45,15 +49,9 @@
     float: right;
 }
 
-.next,
-.previous {
-    width: 50%;
-}
-
 .figure {
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
     display: table;
     &.left {
         float: left;
@@ -73,13 +71,6 @@
 /**
  * Regions
  */
-.region-breadcrumb {
-    #desinax-vgrid.column(@columns);
-}
-
-.region-flash {
-    #desinax-vgrid.column(@columns);
-}
 
 .region-flash-message {
     #desinax-vgrid.column(@columns);

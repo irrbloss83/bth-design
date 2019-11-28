@@ -1,0 +1,1 @@
+[FIGURE src="image/pall1.jpg?w=300" class="right" caption="SM-guld!"]
