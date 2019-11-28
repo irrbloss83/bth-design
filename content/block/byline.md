@@ -1,6 +1,6 @@
 <div class="author-byline">
     <figure class="figure left">
-        <a href="img/me.jpg"><img src="img/me.jpg" alt="Johan Eng" width="120"></a>
+        <a href="img/me.jpg"><img src="img/me.jpg" alt="Johan Eng" height="127"></a>
         <figcaption>
             <p>Johan Eng</p>
         </figcaption>

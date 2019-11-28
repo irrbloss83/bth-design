@@ -5424,6 +5424,9 @@ hr::after {
   caption-side: bottom;
   text-align: center;
 }
+.figure figcaption p {
+  margin-top: 0;
+}
 /**
  * Regions
  */
@@ -5441,32 +5444,6 @@ hr::after {
   display: none;
 }
 /**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 805px) {
-  .region-header-col-1 {
-    display: inline;
-    float: left;
-    width: 94.79166667%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-header-col-2 {
-    display: inline;
-    float: left;
-    width: -1.04166667%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-header-col-3 {
-    display: inline;
-    float: left;
-    width: 3.125%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-}
-/**
  *  Header
  */
 .inner-wrap-header {
@@ -5477,7 +5454,6 @@ hr::after {
   color: #fff;
 }
 .inner-wrap-header .row {
-  max-width: 100%;
   margin-bottom: 0;
 }
 .site-logo-text {
@@ -5510,12 +5486,10 @@ hr::after {
 ul.my-navbar li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 ul.my-navbar li a:hover {
   background-color: #111;
-  text-decoration: none;
 }
 /**
  *  Footer
@@ -5546,6 +5520,9 @@ ul.my-navbar li a:hover {
 /**
  *  Flash
  */
+.outer-wrap-flash.row {
+  max-width: 100%;
+}
 .inner-wrap-flash {
   margin-right: auto;
   margin-left: auto;
@@ -5640,8 +5617,8 @@ ul.my-navbar li a:hover {
  */
 .author-byline {
   border: 1px solid black;
-  padding: 1em;
-  margin-bottom: 46px;
+  padding: 8px;
+  margin-bottom: 24px;
   clear: both;
 }
 .author-byline::after {
@@ -5683,7 +5660,7 @@ ul.my-navbar li a:hover {
     margin-right: 0.52083333%;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5707,6 +5684,96 @@ ul.my-navbar li a:hover {
  */
 @media screen and (max-width: 1100px) {
   .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .inner-wrap-main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 78.125%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 78.125%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 19.79166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 19.79166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-breadcrumb {
+    margin-left: 0.52083333%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-sidebar-left.has-sidebar-right {
     display: inline;
     float: left;
     width: 98.95833333%;
