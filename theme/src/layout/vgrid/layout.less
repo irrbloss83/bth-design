@@ -13,11 +13,6 @@
  * General layout
  */
 
-// Activate the grid base font
-body {
-   #desinax-hgrid.font(@fontSizeBody);
-}
-
 .row {
     #desinax-vgrid.row();
     //background-color: #0f0;
@@ -40,10 +35,6 @@ body {
     }
 }
 
-.site-logo {
-    display: none;
-}
-
 .next-previous {
     display: inline-block;
     width: 100%;
@@ -60,8 +51,22 @@ body {
 }
 
 .figure {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    display: table;
+    &.left {
+        float: left;
+        margin-right: 8px;
+    }
     &.right {
         float: right;
+        margin-left: 8px;
+    }
+    & figcaption {
+        display: table-caption;
+        caption-side: bottom;
+        text-align: center;
     }
 }
 
@@ -74,4 +79,15 @@ body {
 
 .region-flash {
     #desinax-vgrid.column(@columns);
+}
+
+.region-flash-message {
+    #desinax-vgrid.column(@columns);
+}
+
+/**
+ * Misc
+ */
+.site-logo {
+    display: none;
 }

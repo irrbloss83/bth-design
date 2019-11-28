@@ -39,10 +39,6 @@
 @import "@desinax/typographic-grid//less/typography-defaults.less";
 
 
-// Activate grid and affect all typographic elements
-#desinax-hgrid.activateDefaultTypography();
-
-
 // Show the grid
 .hgrid .inner-wrap {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
@@ -59,11 +55,11 @@
  */
 @import "@desinax/vertical-grid/less/grid.less";
 
-// Default grid, change to fit
-@columnWidth:   30;
-@gutterWidth:   10;
-@columns:       24;
-@gridType:      "float"; // "flex"
+// // Default grid, change to fit
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
 
 
 /**
@@ -76,13 +72,10 @@
 @import "layout/vgrid/flash.less";
 //@import "layout/flash-message.less";
 @import "layout/vgrid/sidebars.less";
-//@import "layout/author_byline.less";
+@import "layout/vgrid/author_byline.less";
 @import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 
-
-
- 
  
 /**
  * My own settings, not currently in their own module.

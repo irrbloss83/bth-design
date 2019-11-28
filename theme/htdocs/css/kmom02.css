@@ -5064,6 +5064,7 @@ img {
   max-width: 100%;
   overflow: auto;
   margin-top: 16px;
+  background-color: lightgrey;
 }
 .inner-wrap-footer {
   background-color: lightgrey;

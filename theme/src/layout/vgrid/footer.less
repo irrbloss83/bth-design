@@ -3,20 +3,18 @@
  */
 
 .outer-wrap-footer {
-    //max-width: 100%;
-    //overflow: auto;
-    //margin-top: 16px;
+    background-color: lightgrey;
 }
 
 .inner-wrap-footer {
     background-color: lightgrey;
+    & .row {
+        margin-bottom: 0px;
+    }
 }
 
 .footer-column {
-    //width: 33.3%;
-    //float: left;
     #desinax-vgrid.column(@columns / 3);
-    //padding: 8px 16px;
 }
 
 .site-footer {
