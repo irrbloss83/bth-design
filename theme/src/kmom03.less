@@ -38,7 +38,6 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid//less/typography-defaults.less";
 
-
 // Show the grid
 .hgrid .inner-wrap {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
@@ -81,8 +80,13 @@
  * My own settings, not currently in their own module.
  */
 
- @bgColorHtml: #fff;
- @bgColorBody: #fff;
- @colorBody: #333;
- @bgColorHeader: #5f5f5f;
- @colorHeader: #fff;    
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: #333;
+@bgColorHeader: #5f5f5f;
+@colorHeader: #fff;
+
+@fontFamilyHeadings: 'Ubuntu', sans-serif;
+@fontFamilyBody:     'Ubuntu', sans-serif;
+@fontFamilyCode:     'Ubuntu', sans-serif;
