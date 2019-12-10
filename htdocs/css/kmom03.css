@@ -5500,6 +5500,7 @@ ul.my-navbar li a:hover {
 }
 .inner-wrap-footer {
   background-color: lightgrey;
+  color: #333;
 }
 .inner-wrap-footer .row {
   margin-bottom: 0px;
