@@ -1,0 +1,97 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+ @media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+/**
+ *  Navbar
+ */
+
+@media screen and (max-width: 810px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(@columns * 5 / 24);
+
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(@columns * 18 / 24);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns / 24);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(@columns - 1);
+
+    }
+    .region-header-col-2 {
+        display: none;
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(1);
+    }
+}
+
+/**
+ * Columns
+ */
+
+@media screen and (max-width: 1100px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);   
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .inner-wrap-main {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .region-main {
+        #desinax-vgrid.column(@columns);   
+        &.has-sidebar {
+            #desinax-vgrid.column(@columns * 3 / 4 + 1);
+        }
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns * 3 / 4 + 1);
+        }
+    }
+    .region-sidebar-left,
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns / 4 - 1);
+    }
+    .region-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns / 4 - 1);
+    }
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+    .region-breadcrumb {
+        #desinax-vgrid.push(0);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);   
+        &.has-sidebar {
+            #desinax-vgrid.column(@columns);
+        }
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+    .region-sidebar-left,
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+}

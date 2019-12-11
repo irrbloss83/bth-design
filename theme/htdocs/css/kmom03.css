@@ -5535,6 +5535,7 @@ ul.my-navbar li a:hover {
   max-height: 180px;
   width: 100%;
   object-position: 0 73%;
+  vertical-align: bottom;
 }
 /**
  *  Sidebars
@@ -5631,6 +5632,7 @@ ul.my-navbar li a:hover {
 .author-byline {
   border: 1px solid black;
   padding: 8px;
+  margin-bottom: 20px;
   clear: both;
 }
 .author-byline::after {

@@ -1,0 +1,26 @@
+/**
+ *  Footer
+ */
+
+@bgColorFooter: lightgrey;
+@colorFooter: #333;
+
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+}
+
+.inner-wrap-footer {
+    background-color: @bgColorFooter;
+    color: @colorFooter;
+    & .row {
+        margin-bottom: 0px;
+    }
+}
+
+.region-footer {
+    #desinax-vgrid.column(@columns);
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+}
