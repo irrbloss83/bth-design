@@ -5395,7 +5395,7 @@ hr::after {
 }
 .next-previous a,
 .next-previous a:visited {
-  color: #000;
+  color: #333;
   text-decoration: none;
 }
 .next-previous a:hover,
@@ -5426,6 +5426,10 @@ hr::after {
 }
 .figure figcaption p {
   margin-top: 0;
+}
+code {
+  background-color: #eee;
+  color: #333;
 }
 /**
  * Regions
@@ -5592,18 +5596,22 @@ ul.my-navbar li a:hover {
   padding: 0;
 }
 .toc ul li.selected {
-  background-color: lightgrey;
+  background-color: #333;
+}
+.toc ul li.selected a,
+.toc ul li.selected a:visited {
+  color: #5f5f5f;
 }
 .toc ul li a,
 .toc ul li a:visited {
   display: block;
-  color: #000;
+  color: #333;
   text-decoration: none;
 }
 .toc ul li a:hover,
 .toc ul li a:visited:hover {
-  background-color: #5f5f5f;
-  color: #fff;
+  color: #5f5f5f;
+  background-color: #fff;
 }
 .toc ul li.section-header {
   margin-top: 23px;
@@ -5620,7 +5628,7 @@ ul.my-navbar li a:hover {
 }
 .breadcrumb-list ul li a,
 .breadcrumb-list ul li a:visited {
-  color: #000;
+  color: #333;
   text-decoration: none;
 }
 .breadcrumb-list ul li::after {

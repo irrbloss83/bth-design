@@ -5014,14 +5014,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: red;
+  background-color: #434998;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: green;
-  font: 16px/1.5 'Ubuntu', sans-serif;
+  color: #ced0f0;
+  background-color: #ced0f0;
+  font: 16px/1.5 'Roboto', sans-serif;
 }
 img {
   max-width: 100%;
@@ -5032,7 +5032,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5156,7 +5156,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 code,
 samp {
@@ -5371,7 +5371,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: white;
+  background-color: #434998;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5395,7 +5395,7 @@ hr::after {
 }
 .next-previous a,
 .next-previous a:visited {
-  color: #000;
+  color: #ced0f0;
   text-decoration: none;
 }
 .next-previous a:hover,
@@ -5427,6 +5427,10 @@ hr::after {
 .figure figcaption p {
   margin-top: 0;
 }
+code {
+  background-color: #ced0f0;
+  color: #333;
+}
 /**
  * Regions
  */
@@ -5450,8 +5454,8 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #5f5f5f;
-  color: #fff;
+  background-color: #434998;
+  color: #ced0f0;
 }
 .inner-wrap-header .row {
   margin-bottom: 0;
@@ -5462,10 +5466,10 @@ hr::after {
 .site-logo-text a,
 .site-logo-text a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #ced0f0;
 }
 .rm-default li ul {
-  background-color: #5f5f5f;
+  background-color: #434998;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5489,18 +5493,18 @@ ul.my-navbar li a {
   text-decoration: none;
 }
 ul.my-navbar li a:hover {
-  background-color: #111;
+  background-color: #434998;
   text-decoration: none;
 }
 /**
  *  Footer
  */
 .outer-wrap-footer {
-  background-color: lightgrey;
+  background-color: #434998;
 }
 .inner-wrap-footer {
-  background-color: lightgrey;
-  color: #333;
+  background-color: #434998;
+  color: #ced0f0;
 }
 .inner-wrap-footer .row {
   margin-bottom: 0px;
@@ -5592,18 +5596,22 @@ ul.my-navbar li a:hover {
   padding: 0;
 }
 .toc ul li.selected {
-  background-color: lightgrey;
+  background-color: #ced0f0;
+}
+.toc ul li.selected a,
+.toc ul li.selected a:visited {
+  color: #434998;
 }
 .toc ul li a,
 .toc ul li a:visited {
   display: block;
-  color: #000;
+  color: #ced0f0;
   text-decoration: none;
 }
 .toc ul li a:hover,
 .toc ul li a:visited:hover {
-  background-color: #5f5f5f;
-  color: #fff;
+  color: #434998;
+  background-color: #ced0f0;
 }
 .toc ul li.section-header {
   margin-top: 23px;
@@ -5620,7 +5628,7 @@ ul.my-navbar li a:hover {
 }
 .breadcrumb-list ul li a,
 .breadcrumb-list ul li a:visited {
-  color: #000;
+  color: #ced0f0;
   text-decoration: none;
 }
 .breadcrumb-list ul li::after {
@@ -5830,9 +5838,13 @@ ul.my-navbar li a:hover {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
+@color Code: #434998
+
+
+serif: 'Roboto', sans-serif;

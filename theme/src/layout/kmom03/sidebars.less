@@ -43,15 +43,18 @@
         padding: 0;
         & li {
             &.selected {
-                background-color: lightgrey;
+                background-color: @colorBody;
+                & a, a:visited {
+                    color: @bgColorHeader;
+                }
             }
             & a, a:visited {
                 display: block;
-                color: #000;
+                color: @colorBody;
                 text-decoration: none;
                 &:hover {
-                    background-color: @bgColorHeader;
-                    color: @colorHeader;
+                    color: @bgColorHeader;
+                    background-color: @colorHeader;
                 }
             }
             &.section-header {
@@ -70,7 +73,7 @@
     & li {
         display: inline;
         & a, a:visited {
-            color: #000;
+            color: @colorBody;
             text-decoration: none;
         }
         &::after {

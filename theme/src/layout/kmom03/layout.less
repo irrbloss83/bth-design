@@ -8,6 +8,8 @@
 
  @bgColorOuterWrap: white;
  @bgColorInnerWrap: white;
+ @bgColorCode: #eee;
+ @colorCode: #333;
 
  /**
  * General layout
@@ -36,7 +38,7 @@
 
 .next-previous {
     & a, a:visited {
-        color: #000;
+        color: @colorBody;
         text-decoration: none;
         &:hover {
             text-decoration: underline;
@@ -69,6 +71,11 @@
             margin-top: 0;
         }
     }
+}
+
+code {
+    background-color: @bgColorCode;
+    color: @colorCode;
 }
 
 /**
