@@ -5032,7 +5032,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Roboto', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5429,7 +5429,7 @@ hr::after {
 }
 code {
   background-color: #ced0f0;
-  color: #333;
+  color: #434998;
 }
 /**
  * Regions
@@ -5844,7 +5844,3 @@ ul.my-navbar li a:hover {
   font-display: swap;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
-@color Code: #434998
-
-
-serif: 'Roboto', sans-serif;

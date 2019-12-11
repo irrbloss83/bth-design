@@ -5596,7 +5596,7 @@ ul.my-navbar li a:hover {
   padding: 0;
 }
 .toc ul li.selected {
-  background-color: #333;
+  background-color: #fff;
 }
 .toc ul li.selected a,
 .toc ul li.selected a:visited {

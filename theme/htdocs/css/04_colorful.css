@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the minimalistic stylesheet for design kmom04.
  *
  */
 /**
@@ -5014,14 +5014,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: #434998;
+  background-color: #50088a;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #ced0f0;
-  background-color: #ced0f0;
-  font: 16px/1.5 'Roboto', sans-serif;
+  color: #8132c1;
+  background-color: #8fec30;
+  font: 16px/1.5 'Ubuntu', sans-serif;
 }
 img {
   max-width: 100%;
@@ -5032,7 +5032,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5156,7 +5156,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 code,
 samp {
@@ -5371,7 +5371,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #434998;
+  background-color: #fff;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5395,7 +5395,7 @@ hr::after {
 }
 .next-previous a,
 .next-previous a:visited {
-  color: #ced0f0;
+  color: #8132c1;
   text-decoration: none;
 }
 .next-previous a:hover,
@@ -5428,8 +5428,8 @@ hr::after {
   margin-top: 0;
 }
 code {
-  background-color: #ced0f0;
-  color: #434998;
+  background-color: #fff;
+  color: #8132c1;
 }
 /**
  * Regions
@@ -5454,8 +5454,8 @@ code {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #434998;
-  color: #ced0f0;
+  background-color: #50088a;
+  color: #ff9234;
 }
 .inner-wrap-header .row {
   margin-bottom: 0;
@@ -5466,10 +5466,10 @@ code {
 .site-logo-text a,
 .site-logo-text a:visited {
   text-decoration: none;
-  color: #ced0f0;
+  color: #ff9234;
 }
 .rm-default li ul {
-  background-color: #434998;
+  background-color: #50088a;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5493,18 +5493,18 @@ ul.my-navbar li a {
   text-decoration: none;
 }
 ul.my-navbar li a:hover {
-  background-color: #434998;
+  background-color: #50088a;
   text-decoration: none;
 }
 /**
  *  Footer
  */
 .outer-wrap-footer {
-  background-color: #434998;
+  background-color: #50088a;
 }
 .inner-wrap-footer {
-  background-color: #434998;
-  color: #ced0f0;
+  background-color: #50088a;
+  color: #fff;
 }
 .inner-wrap-footer .row {
   margin-bottom: 0px;
@@ -5596,22 +5596,22 @@ ul.my-navbar li a:hover {
   padding: 0;
 }
 .toc ul li.selected {
-  background-color: #ced0f0;
+  background-color: #ff9234;
 }
 .toc ul li.selected a,
 .toc ul li.selected a:visited {
-  color: #434998;
+  color: #50088a;
 }
 .toc ul li a,
 .toc ul li a:visited {
   display: block;
-  color: #ced0f0;
+  color: #8132c1;
   text-decoration: none;
 }
 .toc ul li a:hover,
 .toc ul li a:visited:hover {
-  color: #434998;
-  background-color: #ced0f0;
+  color: #50088a;
+  background-color: #ff9234;
 }
 .toc ul li.section-header {
   margin-top: 23px;
@@ -5628,7 +5628,7 @@ ul.my-navbar li a:hover {
 }
 .breadcrumb-list ul li a,
 .breadcrumb-list ul li a:visited {
-  color: #ced0f0;
+  color: #8132c1;
   text-decoration: none;
 }
 .breadcrumb-list ul li::after {
@@ -5838,9 +5838,9 @@ ul.my-navbar li a:hover {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
 }

@@ -75,9 +75,13 @@ Denna sidan har en analog färgsättning. Den är till stor del i gråskala men 
 Webbsidan använder sig av två olika typsnitt. *BebasNeueRegular* till rubriker samt *SurceSansPro* till brödtext. Även dessa är typsnitt utan serifer.
 
 ##Analys
+Alla tre websidorna har ganska enkla färgscheman med i princip bara en färg. Fender och ESP använder båda rött, om än olika mycket. Fender använder det mer som en accentfärg för att dra fokus till särskilda knappar, medans ESP är mer frikostiga. De använder sin röda färg till bl.a. menyer, rubriker, knappar samt en del text. Jag upplever båda sidorna som ganska färgstarka trots få färger, ESP mer än Fender. Blicken vill gärna dras till de röda partierna då de står ut ganska mycket.
+Ibanez å andra sidan känns lugnare. De använder en blå accentfärg, dessutom ytterst sparsamt.
+Jag antar att samtliga sidors avsikt är att visa upp deras produkter. Utifrån detta upplever jag Ibanez sida som tervligast. Det finns ingenting på sidan som stjäl fokus från deras produktbilder. Fender använder sin röda färg på ett effektivt sätt för att "guida" dig vidare på siten genom att markera vissa länkar. Jag tycker ändå att jag tittar mer på texten här än på Ibanez sida. ESP å andra sidan upplever jag som lite skrikig imellanåt. På vissa delar av sidan är det mycket röda element och bilderna får inte riktigt samma uppmärksamhet.
 
 ##Referenser
-
+Färghjul: [Sessions College](https://www.sessions.edu/color-calculator/)
+The Principles of Beautiful Web Design, 3rd Edition - J. Beaird & J. George
 
 
 ##Övrigt
