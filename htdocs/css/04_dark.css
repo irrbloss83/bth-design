@@ -5014,13 +5014,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: #434998;
+  background-color: #030b0b;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #ced0f0;
-  background-color: #ced0f0;
+  color: #38cdcd;
+  background-color: #173d3d;
   font: 16px/1.5 'Roboto', sans-serif;
 }
 img {
@@ -5371,7 +5371,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #434998;
+  background-color: #173d3d;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5395,7 +5395,7 @@ hr::after {
 }
 .next-previous a,
 .next-previous a:visited {
-  color: #ced0f0;
+  color: #38cdcd;
   text-decoration: none;
 }
 .next-previous a:hover,
@@ -5428,8 +5428,8 @@ hr::after {
   margin-top: 0;
 }
 code {
-  background-color: #ced0f0;
-  color: #434998;
+  background-color: #2d8d8d;
+  color: #030b0b;
 }
 /**
  * Regions
@@ -5454,8 +5454,8 @@ code {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #434998;
-  color: #ced0f0;
+  background-color: #2d8d8d;
+  color: #000202;
 }
 .inner-wrap-header .row {
   margin-bottom: 0;
@@ -5466,10 +5466,10 @@ code {
 .site-logo-text a,
 .site-logo-text a:visited {
   text-decoration: none;
-  color: #ced0f0;
+  color: #000202;
 }
 .rm-default li ul {
-  background-color: #434998;
+  background-color: #2d8d8d;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5493,18 +5493,18 @@ ul.my-navbar li a {
   text-decoration: none;
 }
 ul.my-navbar li a:hover {
-  background-color: #434998;
+  background-color: #38cdcd;
   text-decoration: none;
 }
 /**
  *  Footer
  */
 .outer-wrap-footer {
-  background-color: #434998;
+  background-color: #030b0b;
 }
 .inner-wrap-footer {
-  background-color: #434998;
-  color: #ced0f0;
+  background-color: #030b0b;
+  color: #2d8d8d;
 }
 .inner-wrap-footer .row {
   margin-bottom: 0px;
@@ -5596,22 +5596,22 @@ ul.my-navbar li a:hover {
   padding: 0;
 }
 .toc ul li.selected {
-  background-color: #ced0f0;
+  background-color: #000202;
 }
 .toc ul li.selected a,
 .toc ul li.selected a:visited {
-  color: #434998;
+  color: #2d8d8d;
 }
 .toc ul li a,
 .toc ul li a:visited {
   display: block;
-  color: #ced0f0;
+  color: #38cdcd;
   text-decoration: none;
 }
 .toc ul li a:hover,
 .toc ul li a:visited:hover {
-  color: #434998;
-  background-color: #ced0f0;
+  color: #2d8d8d;
+  background-color: #000202;
 }
 .toc ul li.section-header {
   margin-top: 23px;
@@ -5628,7 +5628,7 @@ ul.my-navbar li a:hover {
 }
 .breadcrumb-list ul li a,
 .breadcrumb-list ul li a:visited {
-  color: #ced0f0;
+  color: #38cdcd;
   text-decoration: none;
 }
 .breadcrumb-list ul li::after {
