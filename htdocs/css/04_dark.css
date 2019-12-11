@@ -1,5 +1,5 @@
 /*!
- * LESS version of the minimalistic stylesheet for design kmom04.
+ * LESS version of the dark stylesheet for design kmom04.
  *
  */
 /**
@@ -5021,7 +5021,7 @@ body {
   padding: 0;
   color: #38cdcd;
   background-color: #173d3d;
-  font: 16px/1.5 'Roboto', sans-serif;
+  font: 16px/1.5 'Ubuntu', sans-serif;
 }
 img {
   max-width: 100%;
@@ -5032,7 +5032,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5156,7 +5156,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 code,
 samp {
@@ -5838,9 +5838,9 @@ ul.my-navbar li a:hover {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
 }

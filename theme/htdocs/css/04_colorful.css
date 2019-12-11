@@ -5020,7 +5020,7 @@ body {
   margin: 0;
   padding: 0;
   color: #8132c1;
-  background-color: #8fec30;
+  background-color: #5cb900;
   font: 16px/1.5 'Ubuntu', sans-serif;
 }
 img {
@@ -5493,7 +5493,7 @@ ul.my-navbar li a {
   text-decoration: none;
 }
 ul.my-navbar li a:hover {
-  background-color: #50088a;
+  background-color: #8132c1;
   text-decoration: none;
 }
 /**
