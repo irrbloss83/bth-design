@@ -52,8 +52,13 @@ return [
                 "items" => [
                     [
                         "text" => "Kmom04 - Färganalys",
-                        "url" => "rapport/kmom04",
+                        "url" => "rapport/fargschema",
                         "title" => "Rapport för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05 - Laddningstider",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport för kmom05.",
                     ],
                 ],
             ],
